@@ -13,8 +13,8 @@ Ailette.io serves as a dynamic portfolio hub, featuring:
 ## Tech Stack
 
 - [Next.js](https://nextjs.org) - React framework for production
-- Modern CSS/SCSS for styling
-- Responsive design principles
+- React.js
+- Tailwind CSS
 - Performance-optimized assets
 
 ## Development
