@@ -1,0 +1,55 @@
+.socialContainer {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  display: flex;
+  gap: 1.2rem;
+  z-index: 10;
+}
+
+.socialLink {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  color: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.socialLink:hover {
+  transform: translateY(-3px);
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+@media (max-width: 768px) {
+  .socialContainer {
+    top: 1.5rem;
+    right: 1.5rem;
+    gap: 0.8rem;
+  }
+  
+  .socialLink {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+@media (max-width: 480px) {
+  .socialContainer {
+    top: 1rem;
+    right: 1rem;
+    gap: 0.5rem;
+  }
+  
+  .socialLink {
+    width: 32px;
+    height: 32px;
+  }
+} 
