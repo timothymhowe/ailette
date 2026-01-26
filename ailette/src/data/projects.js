@@ -1,5 +1,15 @@
 const projects = [
   {
+    id: 'project-decant',
+    title: 'Decant',
+    description: 'Shazam for wine. Scan any bottle to get ratings, tasting notes, and food pairings instantly.',
+    technologies: ['React Native', 'Computer Vision', 'Node.js'],
+    image: null,
+    url: 'https://decantapp.com',
+    link: 'https://decantapp.com',
+    featured: true
+  },
+  {
     id: 'project-1',
     title: 'Pick Golf',
     description: 'A fantasy golf platform allowing users to compete in contests by selecting golfers for tournaments with advanced analytics and real-time scoring.',
@@ -10,6 +20,16 @@ const projects = [
     featured: true
   },
   {
+    id: 'project-3',
+    title: 'Shor.tz',
+    description: 'AI-powered mini crossword generator that creates daily bite-sized puzzles with clever clues and contextually relevant themes. A collaboration with Poise Ventures.',
+    technologies: ['NLP', 'GPT-4', 'TypeScript', 'Next.js', 'Vercel'],
+    image: '/images/shortz.jpg',
+    url: 'https://shor.tz',
+    link: 'https://shor.tz',
+    featured: true
+  },
+  {
     id: 'project-2',
     title: 'The Manhattan Project',
     description: 'A machine learning system that analyzes urban data to propose optimized redistricting of Manhattan neighborhoods based on demographic shifts, traffic patterns, and community needs.',
@@ -17,16 +37,6 @@ const projects = [
     image: '/images/manhattan-project.jpg',
     url: 'https://manhattan-redistrict.ailette.dev',
     link: 'https://manhattan-redistrict.ailette.dev',
-    featured: true
-  },
-  {
-    id: 'project-3',
-    title: 'Shor.tz',
-    description: 'AI-powered mini crossword generator that creates daily bite-sized puzzles with clever clues, optimized difficulty scaling, and contextually relevant themes based on current events.',
-    technologies: ['NLP', 'GPT-4', 'TypeScript', 'Next.js', 'Vercel'],
-    image: '/images/shortz.jpg',
-    url: 'https://shor.tz',
-    link: 'https://shor.tz',
     featured: true
   },
   {
