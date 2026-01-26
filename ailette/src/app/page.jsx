@@ -9,14 +9,14 @@ export default function Home() {
     <div className="min-h-screen bg-white flex items-center justify-center p-8">
       <main className="w-full max-w-xl">
         {/* Header */}
-        <header className="mb-6 pb-6 border-b border-neutral-200">
-          <div className="flex items-center gap-3 mb-1">
-            <img src="/ailette.svg" alt="Ailette logo" className="w-8 h-8" />
-            <h1 className="text-3xl font-bold text-neutral-900">Ailette</h1>
+        <header className="mb-6 pb-6 border-b border-neutral-200 flex gap-4">
+          <img src="/ailette.svg" alt="Ailette logo" className="w-24 h-auto -ml-28 shrink-0" />
+          <div>
+            <h1 className="text-3xl font-bold text-neutral-900 mb-1">Ailette</h1>
+            <p className="text-neutral-500 leading-relaxed">
+              A project studio for solo ventures and freelance work. Building products, exploring ideas, and shipping things that matter.
+            </p>
           </div>
-          <p className="text-neutral-500 leading-relaxed">
-            A project studio for solo ventures and freelance work. Building products, exploring ideas, and shipping things that matter.
-          </p>
         </header>
 
         {/* Projects */}
