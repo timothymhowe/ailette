@@ -21,7 +21,7 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: "/og-image.png",
+        url: "/og_1_ailette.png",
         width: 1200,
         height: 630,
         alt: "Ailette - Project Studio",
@@ -32,7 +32,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Ailette - Project Studio | Timothy M. Howe",
     description: "Ailette is a project studio founded by Timothy M. Howe. Building software products, exploring ideas, and available for freelance work.",
-    images: ["/og-image.png"],
+    images: ["/og_1_ailette.png"],
   },
   robots: {
     index: true,
