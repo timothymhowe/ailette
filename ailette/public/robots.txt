@@ -1,0 +1,5 @@
+# robots.txt for ailette.io
+User-agent: *
+Allow: /
+
+Sitemap: https://ailette.io/sitemap.xml
