@@ -70,18 +70,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Links */}
-        <footer className="flex gap-6 text-sm">
-          <a href="mailto:contact@ailette.dev" className="text-neutral-400 hover:text-neutral-900 transition-colors">
-            Email
-          </a>
-          <a href="https://github.com/ailette" target="_blank" rel="noopener noreferrer" className="text-neutral-400 hover:text-neutral-900 transition-colors">
-            GitHub
-          </a>
-          <a href="https://linkedin.com/in/ailette" target="_blank" rel="noopener noreferrer" className="text-neutral-400 hover:text-neutral-900 transition-colors">
-            LinkedIn
-          </a>
-        </footer>
       </main>
     </div>
   );
