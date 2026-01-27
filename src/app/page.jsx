@@ -21,7 +21,7 @@ export default function Home() {
 
         {/* Projects */}
         <section className="mb-6 pb-6 border-b border-neutral-200">
-          <h2 className="text-lg font-medium text-neutral-900 mb-3">Featured Projects</h2>
+          <h2 className="text-lg font-medium text-neutral-900 mb-3">Featured Work</h2>
           <div className="divide-y divide-neutral-100">
             {featuredProjects.map((project) => (
               <a

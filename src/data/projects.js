@@ -11,7 +11,7 @@ const projects = [
   },
   {
     id: 'project-1',
-    title: 'Pick Golf',
+    title: 'pick.golf',
     description: 'A fantasy golf platform allowing users to compete in contests by selecting golfers for tournaments with advanced analytics and real-time scoring.',
     technologies: ['React', 'Node.js', 'GraphQL', 'AWS'],
     image: 'https://www.pick.golf/twitter-card-image.jpg',
