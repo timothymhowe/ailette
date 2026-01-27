@@ -3,7 +3,7 @@ import "./globals.css";
 const siteUrl = "https://ailette.io";
 
 export const metadata = {
-  title: "ailette, llc – software & ai consulting",
+  title: "ailette, llc - software dev and consulting",
   description: "Ailette is a project studio founded by Timothy M. Howe. Building software products, exploring ideas, and available for freelance work.",
   keywords: ["Timothy Howe", "Timothy M. Howe", "Ailette", "software engineer", "freelance developer", "project studio"],
   authors: [{ name: "Timothy M. Howe", url: siteUrl }],
