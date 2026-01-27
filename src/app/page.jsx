@@ -55,6 +55,15 @@ export default function Home() {
                   <p className="text-sm text-neutral-500 leading-relaxed">
                     {project.description}
                   </p>
+                  {project.tags && (
+                    <div className="flex gap-2 mt-2">
+                      {project.tags.map((tag) => (
+                        <span key={tag} className="text-xs text-neutral-400">
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
+                  )}
                 </Component>
               );
             })}
