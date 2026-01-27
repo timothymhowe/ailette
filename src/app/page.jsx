@@ -12,7 +12,7 @@ export default function Home() {
         <header className="mb-6 pb-6 border-b border-neutral-200 flex gap-4">
           <img src="/ailette.svg" alt="Ailette logo" className="w-24 h-auto -ml-28 shrink-0" />
           <div>
-            <h1 className="text-3xl font-bold text-neutral-900 mb-1">Ailette</h1>
+            <h1 className="text-3xl font-bold text-neutral-900 mb-1">ailette, llc</h1>
             <p className="text-neutral-500 leading-relaxed">
               A project studio for solo ventures and freelance work.
             </p>
