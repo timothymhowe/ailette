@@ -68,7 +68,7 @@ export default function Home() {
             <img
               src="/tmh-profile.png"
               alt="Timothy M. Howe"
-              className="w-12 h-12 rounded object-cover shrink-0 md:w-24 md:h-24 md:-ml-28"
+              className="w-12 h-12 rounded object-cover shrink-0 md:w-24 md:h-24 md:-ml-28 md:-mt-8"
             />
             <div>
               <h3 className="font-medium text-neutral-900 mb-1">Timothy M. Howe</h3>
