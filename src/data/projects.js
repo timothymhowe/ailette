@@ -2,7 +2,7 @@ const projects = [
   {
     id: 'decant',
     title: 'Decant',
-    description: 'Shazam for wine. Scan any bottle to get ratings, tasting notes, and food pairings instantly.',
+    description: 'Shazam for wine. Scan any bottle to get ratings, tasting notes, and food pairings instantly. A collaboration with Poise Ventures.',
     url: 'https://decantapp.com',
     featured: true
   },
@@ -16,7 +16,7 @@ const projects = [
   {
     id: 'shortz',
     title: 'Shor.tz',
-    description: 'AI-powered mini crossword generator that creates daily bite-sized puzzles with clever clues and contextually relevant themes. A collaboration with Poise Ventures.',
+    description: 'AI-powered mini crossword generator that creates daily bite-sized puzzles with clever clues and contextually relevant themes.',
     url: null,
     featured: true
   },
