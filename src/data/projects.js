@@ -4,7 +4,7 @@ const projects = [
     title: 'decant',
     description: 'Shazam for wine. Scan any bottle to get ratings, tasting notes, and food pairings instantly. A collaboration with Poise Ventures to put a sommelier in your pocket.',
     url: 'https://decantapp.com',
-    tags: ['React Native', 'Node.js', 'OpenAI'],
+    tags: ['iOS', 'SwiftUI', 'Supabase', 'VectorDB', 'Claude', 'Computer Vision'],
     featured: true
   },
   {
