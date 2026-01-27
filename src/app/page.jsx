@@ -73,7 +73,7 @@ export default function Home() {
             <div>
               <h3 className="font-medium text-neutral-900 mb-1">Timothy M. Howe</h3>
               <p className="text-sm text-neutral-500 leading-relaxed mb-3">
-                Software engineer with a focus on building products that solve real problems.
+                Full-stack engineer and builder with a focus on AI-powered products.
               </p>
               <div className="flex gap-4 text-sm">
                 <a href="mailto:tim@ailette.io" className="text-neutral-400 hover:text-neutral-900 transition-colors">Email</a>
