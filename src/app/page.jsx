@@ -10,7 +10,7 @@ export default function Home() {
       <main className="w-full max-w-xl">
         {/* Header */}
         <header className="mb-6 pb-6 border-b border-neutral-200 flex gap-4">
-          <img src="/ailette.svg" alt="Ailette logo" className="w-24 h-auto -ml-28 shrink-0" />
+          <img src="/ailette.svg" alt="Ailette logo" className="w-12 h-auto shrink-0 md:w-24 md:-ml-28" />
           <div>
             <h1 className="text-3xl font-bold text-neutral-900 mb-1">ailette, llc</h1>
             <p className="text-neutral-500 leading-relaxed">
