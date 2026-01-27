@@ -1,6 +1,6 @@
 import "./globals.css";
 
-const siteUrl = "https://ailette.vercel.app";
+const siteUrl = "https://ailette.io";
 
 export const metadata = {
   title: "Ailette - Project Studio | Timothy M. Howe",
