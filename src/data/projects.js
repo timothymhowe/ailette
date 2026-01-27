@@ -17,14 +17,14 @@ const projects = [
     id: 'shortz',
     title: 'Shor.tz',
     description: 'AI-powered mini crossword generator that creates daily bite-sized puzzles with clever clues and contextually relevant themes. A collaboration with Poise Ventures.',
-    url: 'https://shor.tz',
+    url: null,
     featured: true
   },
   {
     id: 'manhattan-project',
     title: 'The Manhattan Project',
     description: 'A machine learning system that analyzes urban data to propose optimized redistricting of Manhattan neighborhoods based on demographic shifts, traffic patterns, and community needs.',
-    url: 'https://manhattan-redistrict.ailette.dev',
+    url: null,
     featured: true
   }
 ];
