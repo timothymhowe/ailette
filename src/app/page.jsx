@@ -64,11 +64,11 @@ export default function Home() {
         {/* Founder */}
         <section>
           <h2 className="text-lg font-medium text-neutral-900 mb-3">Founder</h2>
-          <div className="flex gap-3">
+          <div className="flex gap-3 md:gap-4">
             <img
               src="/tmh-profile.png"
               alt="Timothy M. Howe"
-              className="w-16 h-16 rounded object-cover"
+              className="w-12 h-12 rounded object-cover shrink-0 md:w-24 md:h-24 md:-ml-28"
             />
             <div>
               <h3 className="font-medium text-neutral-900 mb-1">Timothy M. Howe</h3>
