@@ -13,9 +13,9 @@ export default function Home() {
           <img src="/ailette.svg" alt="Ailette logo" className="w-12 h-auto shrink-0 md:w-24 md:-ml-28" />
           <div>
             <h1 className="text-3xl font-bold text-neutral-900 mb-1">ailette, llc</h1>
-            <p className="text-neutral-500 leading-relaxed">
+            <h2 className="text-neutral-500 leading-relaxed font-normal">
               A project studio for solo ventures and freelance work.
-            </p>
+            </h2>
           </div>
         </header>
 
