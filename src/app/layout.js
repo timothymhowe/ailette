@@ -68,7 +68,7 @@ const jsonLd = {
       url: "https://ailette.io",
       sameAs: [
         "https://github.com/timothymhowe",
-        "https://linkedin.com/in/timothymhowe",
+        "https://linkedin.com/in/timothy-m-howe",
       ],
       worksFor: {
         "@id": "https://ailette.io/#organization",
