@@ -6,22 +6,22 @@ export default function Home() {
   const featuredProjects = projects.filter(p => p.featured);
 
   return (
-    <div className="min-h-screen bg-white flex items-center justify-center p-8">
+    <div className="min-h-screen bg-white flex items-center justify-center p-6">
       <main className="w-full max-w-xl">
         {/* Header */}
-        <header className="mb-6 pb-6 border-b border-neutral-200 flex gap-4">
+        <header className="mb-4 pb-4 border-b border-neutral-200 flex gap-4">
           <img src="/ailette.svg" alt="Ailette logo" className="w-12 h-auto shrink-0 md:w-24 md:-ml-28" />
           <div>
-            <h1 className="text-3xl font-bold text-neutral-900 mb-1">ailette, llc</h1>
-            <h2 className="text-neutral-500 leading-relaxed font-normal">
+            <h1 className="text-3xl font-bold text-neutral-900 mb-0.5">ailette, llc</h1>
+            <h2 className="text-neutral-500 leading-snug font-normal">
               A project studio for solo ventures and freelance work.
             </h2>
           </div>
         </header>
 
         {/* Projects */}
-        <section className="mb-6 pb-6 border-b border-neutral-200">
-          <h2 className="text-lg font-medium text-neutral-900 mb-3">Featured Work</h2>
+        <section className="mb-4 pb-4 border-b border-neutral-200">
+          <h2 className="text-lg font-medium text-neutral-900 mb-2">Featured Work</h2>
           <div className="divide-y divide-neutral-100">
             {featuredProjects.map((project) => {
               const Component = project.url ? 'a' : 'div';
@@ -35,9 +35,9 @@ export default function Home() {
                 <Component
                   key={project.id}
                   {...linkProps}
-                  className={`block py-2 ${project.url ? 'group cursor-pointer' : ''}`}
+                  className={`block py-1.5 ${project.url ? 'group cursor-pointer' : ''}`}
                 >
-                  <div className="flex items-center justify-between mb-1">
+                  <div className="flex items-center justify-between mb-0.5">
                     <h3 className={`font-medium text-neutral-900 ${project.url ? 'group-hover:text-blue-600' : ''} transition-colors`}>
                       {project.title}
                     </h3>
@@ -52,11 +52,11 @@ export default function Home() {
                       </svg>
                     )}
                   </div>
-                  <p className="text-sm text-neutral-500 leading-relaxed">
+                  <p className="text-sm text-neutral-500 leading-snug">
                     {project.description}
                   </p>
                   {project.tags && (
-                    <div className="flex gap-1.5 mt-1.5">
+                    <div className="flex gap-1.5 mt-1">
                       {project.tags.map((tag) => (
                         <span key={tag} className="text-xs text-neutral-400 bg-neutral-100 px-1.5 py-0.5 rounded">
                           {tag}
@@ -72,7 +72,7 @@ export default function Home() {
 
         {/* Founder */}
         <section>
-          <h2 className="text-lg font-medium text-neutral-900 mb-3">Founder</h2>
+          <h2 className="text-lg font-medium text-neutral-900 mb-2">Founder</h2>
           <div className="flex gap-3 md:gap-4">
             <img
               src="/tmh-profile.png"
@@ -80,8 +80,8 @@ export default function Home() {
               className="w-12 h-12 rounded object-cover shrink-0 md:w-24 md:h-24 md:-ml-28 md:-mt-8"
             />
             <div>
-              <h3 className="font-medium text-neutral-900 mb-1">Timothy M. Howe</h3>
-              <p className="text-sm text-neutral-500 leading-relaxed mb-3">
+              <h3 className="font-medium text-neutral-900 mb-0.5">Timothy M. Howe</h3>
+              <p className="text-sm text-neutral-500 leading-snug mb-2">
                 Full-stack engineer and builder with a focus on AI-powered products.
               </p>
               <div className="flex gap-4 text-sm">
@@ -96,4 +96,4 @@ export default function Home() {
       </main>
     </div>
   );
-} 
+}
