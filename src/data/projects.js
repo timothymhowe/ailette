@@ -28,7 +28,7 @@ const projects = [
     title: 'the manhattan project',
     description: 'Uses spatial clustering algorithms to analyze urban data and propose redrawing Manhattan neighborhood lines based on demographic shifts, traffic patterns, and community needs.',
     url: null,
-    tags: ['Python', 'scikit-learn', 'GeoPandas'],
+    tags: ['Python', 'scikit-learn', 'GeoPandas', 'Uber H3'],
     featured: true
   }
 ];
