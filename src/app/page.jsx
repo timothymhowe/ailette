@@ -14,7 +14,7 @@ export default function Home() {
           <div>
             <h1 className="text-3xl font-bold text-neutral-900 mb-1">Ailette</h1>
             <p className="text-neutral-500 leading-relaxed">
-              A project studio for solo ventures and freelance work. Building products, exploring ideas, and shipping things that matter.
+              A project studio for solo ventures and freelance work.
             </p>
           </div>
         </header>
