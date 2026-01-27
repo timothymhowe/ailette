@@ -77,7 +77,7 @@ export default function Home() {
               </p>
               <div className="flex gap-4 text-sm">
                 <a href="mailto:tim@ailette.io" className="text-neutral-400 hover:text-neutral-900 transition-colors">Email</a>
-                <a href="https://github.com/tmhowe" target="_blank" rel="noopener noreferrer" className="text-neutral-400 hover:text-neutral-900 transition-colors">GitHub</a>
+                <a href="https://github.com/timothymhowe" target="_blank" rel="noopener noreferrer" className="text-neutral-400 hover:text-neutral-900 transition-colors">GitHub</a>
                 <a href="https://linkedin.com/in/timothy-m-howe" target="_blank" rel="noopener noreferrer" className="text-neutral-400 hover:text-neutral-900 transition-colors">LinkedIn</a>
               </div>
             </div>
