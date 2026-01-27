@@ -56,9 +56,9 @@ export default function Home() {
                     {project.description}
                   </p>
                   {project.tags && (
-                    <div className="flex gap-1.5 mt-1">
+                    <div className="flex flex-wrap gap-1.5 mt-1">
                       {project.tags.map((tag) => (
-                        <span key={tag} className="text-xs text-neutral-400 bg-neutral-100 px-1.5 py-0.5 rounded">
+                        <span key={tag} className="text-xs text-neutral-400 bg-neutral-100 px-1.5 py-0.5 rounded whitespace-nowrap">
                           {tag}
                         </span>
                       ))}
