@@ -1,53 +1,17 @@
-# Ailette.io
+# ailette.io
 
-A sleek, modern portfolio platform showcasing innovative projects and technological solutions. Built with Next.js and modern web technologies.
-
-## Overview
-
-Ailette.io serves as a dynamic portfolio hub, featuring:
-- Showcase of projects and technological solutions
-- Modern, responsive design
-- Seamless user experience
-- Built with performance and scalability in mind
-
-## Tech Stack
-
-- [Next.js](https://nextjs.org) - React framework for production
-- React.js
-- Tailwind CSS
-- Performance-optimized assets
+Project studio website for [Ailette, LLC](https://ailette.io).
 
 ## Development
 
-To run the development server:
-
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run dev    # localhost:3000
+npm run build  # production build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech
 
-## Project Structure
-
-```
-ailette/
-├── app/              # Next.js app directory
-├── components/       # Reusable UI components
-├── styles/          # Global styles and CSS modules
-├── public/          # Static assets
-└── content/         # Project content and data
-```
-
-## Contributing
-
-Interested in contributing? Please read our contributing guidelines and submit a PR.
-
-## License
-
-[License Type] - See LICENSE file for details
+- Next.js 16 (App Router)
+- React 19
+- Tailwind CSS
+- Vercel
