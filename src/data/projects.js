@@ -26,7 +26,7 @@ const projects = [
   {
     id: 'manhattan-project',
     title: 'the manhattan project',
-    description: 'Uses spatial clustering algorithms to analyze urban data and propose redrawing Manhattan neighborhood lines based on demographic shifts, traffic patterns, and community needs.',
+    description: 'Visualizing real neighborhood boundaries in NYC using spatial clustering algorithms on urban data, revealing organic communities versus arbitrary lines.',
     url: 'https://nyc-neighborhood-clustering.vercel.app',
     tags: ['Python', 'scikit-learn', 'GeoPandas', 'Uber H3'],
     featured: true
