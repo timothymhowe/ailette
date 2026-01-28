@@ -4,7 +4,7 @@ const siteUrl = "https://ailette.io";
 
 export const metadata = {
   title: "ailette, llc - software dev and consulting",
-  description: "Ailette is a project studio founded by Timothy M. Howe. Building software products, exploring ideas, and available for freelance work.",
+  description: "Software development and AI consulting by Timothy M. Howe.",
   keywords: ["Timothy Howe", "Timothy M. Howe", "Ailette", "software engineer", "freelance developer", "project studio"],
   authors: [{ name: "Timothy M. Howe", url: siteUrl }],
   creator: "Timothy M. Howe",
@@ -14,7 +14,7 @@ export const metadata = {
   },
   openGraph: {
     title: "Ailette - Project Studio | Timothy M. Howe",
-    description: "Ailette is a project studio founded by Timothy M. Howe. Building software products, exploring ideas, and available for freelance work.",
+    description: "Software development and AI consulting by Timothy M. Howe.",
     url: siteUrl,
     siteName: "Ailette",
     locale: "en_US",
@@ -31,7 +31,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Ailette - Project Studio | Timothy M. Howe",
-    description: "Ailette is a project studio founded by Timothy M. Howe. Building software products, exploring ideas, and available for freelance work.",
+    description: "Software development and AI consulting by Timothy M. Howe.",
     images: ["/og_1_ailette.png"],
   },
   robots: {
