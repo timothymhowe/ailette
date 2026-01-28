@@ -3,8 +3,8 @@ import "./globals.css";
 const siteUrl = "https://ailette.io";
 
 export const metadata = {
-  title: "ailette, llc - software dev and consulting",
-  description: "Software development and AI consulting by Timothy M. Howe.",
+  title: "Timothy M. Howe | ailette, llc - software dev and consulting",
+  description: "Timothy M. Howe - full-stack engineer and AI consultant. Founder of Ailette, building software products like pick.golf and decant.",
   keywords: ["Timothy Howe", "Timothy M. Howe", "Ailette", "software engineer", "freelance developer", "project studio"],
   authors: [{ name: "Timothy M. Howe", url: siteUrl }],
   creator: "Timothy M. Howe",
@@ -13,8 +13,8 @@ export const metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Ailette - Project Studio | Timothy M. Howe",
-    description: "Software development and AI consulting by Timothy M. Howe.",
+    title: "Timothy M. Howe | Ailette - Software & AI Consulting",
+    description: "Timothy M. Howe - full-stack engineer and AI consultant. Founder of Ailette, building software products like pick.golf and decant.",
     url: siteUrl,
     siteName: "Ailette",
     locale: "en_US",
@@ -30,8 +30,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ailette - Project Studio | Timothy M. Howe",
-    description: "Software development and AI consulting by Timothy M. Howe.",
+    title: "Timothy M. Howe | Ailette - Software & AI Consulting",
+    description: "Timothy M. Howe - full-stack engineer and AI consultant. Founder of Ailette, building software products like pick.golf and decant.",
     images: ["/og_1_ailette.png"],
   },
   robots: {
@@ -69,6 +69,7 @@ const jsonLd = {
       sameAs: [
         "https://github.com/timothymhowe",
         "https://linkedin.com/in/timothy-m-howe",
+        "https://www.pick.golf",
       ],
       worksFor: {
         "@id": "https://ailette.io/#organization",
