@@ -11,8 +11,13 @@ export default function Home() {
         {/* Header */}
         <header className="mb-4 pb-4 border-b border-neutral-200 flex gap-4">
           <img src="/ailette.svg" alt="Ailette logo" className="w-12 h-auto shrink-0 md:w-24 md:-ml-28" />
-          <div>
-            <h1 className="text-3xl font-bold text-neutral-900 mb-0.5">ailette, llc</h1>
+          <div className="flex-1">
+            <div className="flex items-start justify-between">
+              <h1 className="text-3xl font-bold text-neutral-900 mb-0.5">ailette, llc</h1>
+              <a href="/blog" className="text-xs text-neutral-400 bg-neutral-100 px-2 py-1 rounded hover:bg-neutral-200 transition-colors">
+                Blog
+              </a>
+            </div>
             <h2 className="text-neutral-500 leading-snug font-normal">
               A project studio for solo ventures and freelance work.
             </h2>
