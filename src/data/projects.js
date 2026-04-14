@@ -12,7 +12,7 @@ const projects = [
     title: 'pick.golf',
     description: 'A fantasy golf platform with 500+ users across multiple leagues, allowing users to compete in contests by selecting golfers for tournaments with advanced analytics and real-time scoring.',
     url: 'https://www.pick.golf',
-    tags: ['Next.js', 'Python', 'MySQL', 'Firebase', 'GCP'],
+    tags: ['Next.js', 'Python', 'PostgreSQL', 'Firebase', 'GCP'],
     featured: true
   },
   {
